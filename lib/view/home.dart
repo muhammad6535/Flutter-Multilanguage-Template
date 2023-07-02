@@ -17,8 +17,8 @@ class Home extends StatelessWidget {
         title: Text("Home".tr),
       ),
       body: SizedBox(
-        width: Get.width,
-        height: Get.height,
+        width: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context).size.height,
         child: Center(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
